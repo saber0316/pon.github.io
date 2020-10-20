@@ -1,0 +1,116 @@
+<1DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> abeponhtml activity</title>
+</head>
+<style>
+    .table{
+        border: 2px solid black;
+        width: 100%;
+    }
+    table thead td{
+        border: 2px solid black;
+        text-align: center;
+    }
+    .table thead tr td h1{
+        margin: 0 auto;
+    }
+    .table tbody td{
+        border: 2px solid black;
+    }
+    .heading {
+        color: white;
+        position: absolute;
+        top: 55%;
+        width: 35%;
+        text-align: center;
+        font-size: 30px;
+        text-shadow: 10px 10px 10px #000000;
+        opacity: 80;
+    }
+</style>
+<body>
+    <div class="content">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td style="width: 20%; max-width: 20%;"><h1>Header1</h1>
+                    </td>
+                    <td style="width: 30%; max-width: 30%;"><h1>Header2</h1>
+                    </td>
+                    <td style="width: 50%; max-width: 50%;"><h1>Header3</h1>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><div style="padding: 2px;">
+                        This cell contains a list
+                        <ul> 
+                            <li>
+                                Apple
+                            </li>
+                            <li>
+                                Banana
+                            </li>
+                        </ul>
+                    </div></td>
+                    <td>
+                        <div style="padding: 2px;">
+                            This cell contains a table
+                            <table style="border: 2px solid black;">
+                                <tr>
+                                    <td>
+                                        A
+                                    </td>
+                                    <td>
+                                        B
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        C
+                                    </td>
+                                    <td>
+                                        D
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td rowspan="2">
+                        <div>
+                            <img src="abe.jpg.jpg" alt="img" width="100%" height="100%" style="position: relative; min-height: 100%;" >
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="padding: 2px;">
+                            This cell contains a list
+                            <ol>
+                                <li>
+                                    apples
+                                </li>
+                                <li>
+                                    banana
+                                </li>
+                              </ol>  
+                        </div>
+                    </td>
+                    <td>
+                        <div style="padding: 2px;">
+                            <i><u>row 1, cell<sup>2</sup></u></i>
+                            <a href="https://www.facebook.com/youcouldbemine16">Here a link to facebook.com</a>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <br>
+</body>
+</html>
